@@ -7,6 +7,7 @@
 
 import Foundation
 
+// クイズの構造体。問題、選択肢、答えを準備。
 struct Quiz {
     let question: String
     let choices: [String]

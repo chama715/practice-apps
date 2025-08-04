@@ -7,6 +7,7 @@
 
 import Foundation
 
+// 名言構造体。ID、名言、誰か、を準備。
 struct Meigen: Identifiable {
     let id = UUID()
     let text: String
