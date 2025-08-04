@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Quiz {
+    let question: String
+    let choices: [String]
+    let answer: String
+}
